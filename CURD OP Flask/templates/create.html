@@ -8,18 +8,26 @@
 </head>
 
 <body>
-    
-    <form action="/insertdata" method='POST'>
+<div style="margin:250px 500px; border-radius:10px; padding:20px; border:1px solid #ccc; text-align:center;">
 
-        <input type="text" name="email" placeholder="email" id="">
-        <br>
-        <br>
+  <form action="/insertdata" method="POST" style="display:inline-block;">
 
-        <input type="text" name="password" placeholder="email" id="">
-        <br><br>
-        <button>submit</button>
+    <h2 style="margin-bottom:20px; font-family:sans-serif;">Sign Up</h2>
 
-    </form>
+    <input type="email" name="email" placeholder="Email" required
+           style="display:block; margin:10px auto; padding:8px; width:220px; border-radius:6px; border:1px solid #999;">
+
+    <input type="password" name="password" placeholder="Password" required
+           style="display:block; margin:10px auto; padding:8px; width:220px; border-radius:6px; border:1px solid #999;">
+
+    <button style="margin-top:15px; padding:8px 16px; border:none; border-radius:6px; background:#2563eb; color:white; cursor:pointer;">
+      Sign Up
+    </button> <a href="/insert">already login?</a>
+
+    <div style="margin-top:12px;">
+
+
+  
 </body>
 
 </html>

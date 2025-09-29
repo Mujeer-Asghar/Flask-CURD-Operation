@@ -8,7 +8,34 @@
 <body>
     
 
-  <h1>hello {{ali}}</h1>
+<div style="margin:150px auto; width:350px; padding:30px; border:1px solid #ddd; border-radius:12px; 
+            text-align:center; background:#f9f9f9; box-shadow:0 4px 12px rgba(0,0,0,0.1); font-family:sans-serif;">
+
+  <form action="/login" method="POST">
+
+    <h2 style="margin-bottom:20px; color:#333;">Login</h2>
+
+    <input type="text" name="email" placeholder="Email" id=""
+           style="width:90%; padding:10px; margin-bottom:15px; border:1px solid #ccc; border-radius:6px; font-size:14px;">
+    <br>
+
+    <input type="password" name="password" placeholder="Password" id=""
+           style="width:90%; padding:10px; margin-bottom:20px; border:1px solid #ccc; border-radius:6px; font-size:14px;">
+    <br>
+
+    <button style="width:95%; padding:10px; border:none; border-radius:6px; background:#2563eb; color:#fff; font-size:15px; cursor:pointer;">
+      Login
+    </button>
+
+    <div style="margin-top:15px;">
+      <a href="/" style="color:#2563eb; text-decoration:none; font-size:14px;">Want to register?</a>
+    </div>
+  </form>
+
+</div>
+
+
+
     
 </body>
 </html>
